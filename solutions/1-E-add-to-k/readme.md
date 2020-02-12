@@ -1,4 +1,4 @@
-# Coding Problem of the Day 1
+# Coding Problem of the Day: 1
 
 [Coding Problem of the Day](https://www.dailycodingproblem.com/)
 
