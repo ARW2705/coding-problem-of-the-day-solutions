@@ -29,9 +29,8 @@ def deserializeHelper(node, nodesToConvert, depth):
     while len(nodesToConvert) > 0:
         # look at the next value
         nextValue = nodesToConvert[0]
-        # split string to determine depth...
+        # split string to determine depth as well as the next direction
         nextValueExpanded = nextValue.split('.')
-        # and next depth
         nextValueDepth = len(nextValueExpanded)
 
         if nextValueDepth == depth + 1:
